@@ -231,7 +231,6 @@ input[type="submit"]{
   h2{
     font-size:24px
   }
-  }
   h3{
     font-size:20px
   }
@@ -246,5 +245,8 @@ input[type="submit"]{
   form{
     width:600px;
     font-size:24px;
+  }
+  h2{
+    font-size:30px;
   }
 }
