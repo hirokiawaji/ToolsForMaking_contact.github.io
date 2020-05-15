@@ -198,7 +198,7 @@ input[type="text"],input[type="email"]{
   border: solid 1px #aaa;
   border-radius:5px;
   padding:10px;
-  font-size: 15px;
+  font-size: 24px;
   font-family: serif;
 }
 textarea{
@@ -240,8 +240,14 @@ input[type="submit"]{
     height:90px;
   }
   form{
-    width:600px;
+    width:700px;
     font-size:24px;
+  }
+  textarea{
+    width: 700px;
+    height: 160px;
+    font-size: 24px;
+    font-family: serif;
   }
   h2{
     font-size:30px;
