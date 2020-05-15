@@ -198,7 +198,7 @@ input[type="text"],input[type="email"]{
   border: solid 1px #aaa;
   border-radius:5px;
   padding:10px;
-  font-size: 24px;
+  font-size: 15px;
   font-family: serif;
 }
 textarea{
@@ -251,6 +251,13 @@ input[type="submit"]{
   }
   h2{
     font-size:24px;
+  }
+  input[type="text"],input[type="email"]{
+    border: solid 1px #aaa;
+    border-radius:5px;
+    padding:10px;
+    font-size: 24px;
+    font-family: serif;
   }
   input[type="submit"]{
     background: #2C2C2C;
