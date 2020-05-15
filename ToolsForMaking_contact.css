@@ -252,4 +252,17 @@ input[type="submit"]{
   h2{
     font-size:30px;
   }
+  input[type="submit"]{
+    background: #2C2C2C;
+    border: none;
+    color: white;
+    font-size:30px;
+    font-weight:normal;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-family: serif;
+  }
+  .inputs{
+    width:600px;
+  }
 }
