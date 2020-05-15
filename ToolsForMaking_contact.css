@@ -243,4 +243,8 @@ input[type="submit"]{
   .header{
     height:90px;
   }
+  form{
+    width:600px;
+    font-size:24px;
+  }
 }
