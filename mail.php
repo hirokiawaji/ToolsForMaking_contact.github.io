@@ -11,9 +11,11 @@
 
 			$yourname = $_POST['yourname'];
 			$comment = $_POST['comment'];
+			$email = "tsukkii0810@gmail.com";
+			$option= "From: tsukkii08101@outlook.jp";
 
 
-			if(mb_send_mail("tsukkii0810@gmail.com",$yourname, $comment)){
+			if(mb_send_mail($to, $yourname, $comment, $option)){
 				echo "送信されました。ご協力ありがとうございました。";
 			} else {
 				echo "送信に失敗しました";

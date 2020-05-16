@@ -130,7 +130,7 @@ h3{
 .contact{
   text-decoration: none;
   color:black;
-  font-weight:bold;
+  font-weight:normal;
 }
 .profile{
   text-decoration: none;
@@ -143,6 +143,9 @@ h3{
 .home{
   text-decoration: none;
   color:black;
+}
+.contact:hover{
+  color:gray;
 }
 .policy:hover{
   color:gray;
@@ -223,6 +226,14 @@ input[type="submit"]{
   padding: 10px 20px;
   margin: 0 5px;
   font-family: serif;
+}
+.main{
+  font-family:serif;
+  font-weight:normal;
+  font-size:24px;
+  margin-left:30px;
+  margin-top:100px;
+  margin-bottom:100px;
 }
 
 @media(max-width:1000px){
